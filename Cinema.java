@@ -109,7 +109,7 @@ public class Cinema{
                     System.out.println("Informaçao Incorreta, porfavor insira o assento da fileira.\nQuantos assentos?");
                     assentos = sc.nextInt();
                 }
-                if (assentos < 120) {
+                if (assentos < 24) {
                     System.out.println("é portador de alguma deficiencia ? [1 = sim / 2 = não]");
                     int r = sc.nextInt();
                     switch (r) {
@@ -144,31 +144,31 @@ public class Cinema{
                             case 2:
                             int total2 = assentos - 140 - def;
                             int restante2 = assentos - assBeta;
-                            System.out.println("Ainda há "+total2+" Assentos no total, sendo "+restante2+" assentos restantes na fileira A e 23 nas outras fileiras");
+                            System.out.println("Ainda há "+total2+" Assentos no total, sendo "+restante2+" assentos restantes na fileira B e 23 nas outras fileiras");
                             System.out.println(nome+", seus ingressos foram comprados com sucesso. Aproveite a pipoca grátis e tenha um bom filme.");
                             break;
                             case 3:
                             int restante3 = assentos - assBeta;
                             int total3 = assentos - 140 - def;
-                            System.out.println("Ainda há "+total3+" Assentos no total, sendo "+restante3+" assentos restantes na fileira A e 23 nas outras fileiras");
+                            System.out.println("Ainda há "+total3+" Assentos no total, sendo "+restante3+" assentos restantes na fileira C e 23 nas outras fileiras");
                             System.out.println(nome+", seus ingressos foram comprados com sucesso. Aproveite a pipoca grátis e tenha um bom filme.");
                             break;
                             case 4:
                             int restante4 = assentos - assBeta - def;
                             int total4 = assentos - 140 - def;
-                            System.out.println("Ainda há "+total4+" Assentos no total, sendo "+restante4+" assentos restantes na fileira A e 23 nas outras fileiras");
+                            System.out.println("Ainda há "+total4+" Assentos no total, sendo "+restante4+" assentos restantes na fileira D e 23 nas outras fileiras");
                             System.out.println(nome+", seus ingressos foram comprados com sucesso. Aproveite a pipoca grátis e tenha um bom filme.");
                             break;
                             case 5:
                             int restante5 = assentos - assBeta - def;
                             int total5 = assentos - 140 - def;
-                            System.out.println("Ainda há "+total5+" Assentos no total, sendo "+restante5+" assentos restantes na fileira A e 23 nas outras fileiras");
+                            System.out.println("Ainda há "+total5+" Assentos no total, sendo "+restante5+" assentos restantes na fileira D e 23 nas outras fileiras");
                             System.out.println(nome+", seus ingressos foram comprados com sucesso. Aproveite a pipoca grátis e tenha um bom filme.");
                             break;
                             case 6:
                             int restante6= assentos - assBeta - def;
                             int total6 = assentos - 140 - def;
-                            System.out.println("Ainda há "+total6+" Assentos no total, sendo "+restante6+" assentos restantes na fileira A e 23 nas outras fileiras");
+                            System.out.println("Ainda há "+total6+" Assentos no total, sendo "+restante6+" assentos restantes na fileira E e 23 nas outras fileiras");
                             System.out.println(nome+", seus ingressos foram comprados com sucesso. Aproveite a pipoca grátis e tenha um bom filme.");
                             break;
                         }
